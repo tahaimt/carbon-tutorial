@@ -3,6 +3,27 @@ import 'core-js/modules/es6.array.fill';
 import 'core-js/modules/es6.string.includes';
 import 'core-js/modules/es6.string.trim';
 import 'core-js/modules/es7.object.values';
+/********************************* Polyfills *********************************/
+import 'react-app-polyfill/ie9';
+import 'react-app-polyfill/stable';
+import 'core-js/modules/es6.array.fill';
+import 'core-js/modules/es6.array.find';
+import 'core-js/modules/es6.array.from';
+import 'core-js/modules/es6.math.sign';
+import 'core-js/modules/es6.object.assign';
+import 'core-js/modules/es6.array.map';
+import 'core-js/modules/es6.map';
+import 'core-js/modules/es6.set';
+import 'core-js/modules/es6.string.includes';
+import 'core-js/modules/es6.string.trim';
+import 'core-js/modules/es7.object.values';
+import 'core-js/modules/es7.array.flat-map';
+import 'core-js/modules/es7.array.includes';
+import 'core-js/es6/array';
+import 'core-js/es7/array';
+import 'core-js/es5';
+import 'es6-map';
+/********************************* Polyfills *********************************/
 
 import React from 'react';
 import ReactDOM from 'react-dom';
